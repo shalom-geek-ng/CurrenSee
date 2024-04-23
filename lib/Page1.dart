@@ -28,6 +28,7 @@ class FirstPage extends StatelessWidget {
                     text: 'Effortlessly ',
                     style: TextStyle(
                         color: Colors.white,
+                        fontFamily: 'Poppins',
                         fontSize: 30
                     )
                 ),

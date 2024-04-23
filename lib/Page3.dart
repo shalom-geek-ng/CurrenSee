@@ -25,14 +25,14 @@ class ThirdPage extends StatelessWidget {
           TextSpan(
               children: [
                 TextSpan(
-                    text: 'Effortlessly ',
+                    text: 'Experience seamless currency conversions ',
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 30
                     )
                 ),
                 TextSpan(
-                    text: 'convert ',
+                    text: 'with intuitive swipe gestures, ',
                     style: TextStyle(
                         color: Colors.green,
                         fontSize: 30
@@ -40,20 +40,14 @@ class ThirdPage extends StatelessWidget {
                 ),
 
                 TextSpan(
-                    text: 'currencies from around the globe with just a ',
+                    text: 'making finance management a breeze. ',
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 30
                     )
                 ),
 
-                TextSpan(
-                    text: 'click.',
-                    style: TextStyle(
-                        color: Colors.green,
-                        fontSize: 30
-                    )
-                ),
+
 
 
               ]

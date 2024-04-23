@@ -24,15 +24,9 @@ class SecondPage extends StatelessWidget {
         Text.rich(
           TextSpan(
               children: [
+
                 TextSpan(
-                    text: 'Effortlessly ',
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 30
-                    )
-                ),
-                TextSpan(
-                    text: 'convert ',
+                    text: 'Discover ',
                     style: TextStyle(
                         color: Colors.green,
                         fontSize: 30
@@ -40,7 +34,7 @@ class SecondPage extends StatelessWidget {
                 ),
 
                 TextSpan(
-                    text: 'currencies from around the globe with just a ',
+                    text: 'real-time exchange rates ',
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 30
@@ -48,9 +42,17 @@ class SecondPage extends StatelessWidget {
                 ),
 
                 TextSpan(
-                    text: 'click.',
+                    text: 'and ',
                     style: TextStyle(
                         color: Colors.green,
+                        fontSize: 30
+                    )
+                ),
+
+                TextSpan(
+                    text: 'stay up-to-date with global currency trends.',
+                    style: TextStyle(
+                        color: Colors.white,
                         fontSize: 30
                     )
                 ),
