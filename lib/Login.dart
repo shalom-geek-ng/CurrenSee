@@ -1,3 +1,4 @@
+import 'package:curren_see/Page1.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
@@ -14,27 +15,7 @@ class Login extends StatelessWidget {
           PageView(
             controller: _controller,
             children: [
-              Container(
-
-                height: double.infinity,
-                alignment: Alignment(0.0, 0.0),
-                width: double.infinity,
-                decoration: BoxDecoration(
-                    image: DecorationImage(
-                        image: AssetImage(
-                            'images/currency.png'
-
-                        ),
-                        fit: BoxFit.cover
-                    )
-                ),
-                child:
-
-                Text('Effortlessly convert currencies from around the globe with just a swipe.', textAlign: TextAlign.center, style: TextStyle(
-                    color: Colors.white, fontSize: 35,
-                ),),
-              ),
-
+              FirstPage(),
               Container(
                 color: Colors.purple,
               ),
@@ -88,6 +69,18 @@ class Login extends StatelessWidget {
                 ),
 
                 Container(
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center
+                    ,children: [
+
+                    Text('Log in', style: TextStyle(
+                        color: Colors.green,
+                        fontSize: 20,
+                      fontWeight: FontWeight.bold
+                    ),),
+                    Icon(Icons.arrow_forward, color: Colors.green,)
+                  ],
+                  ),
                   margin: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
                   width: double.infinity,
                   height: 50,
@@ -102,13 +95,18 @@ class Login extends StatelessWidget {
 
 
                       child: Row(
-                        children: [
+                      mainAxisAlignment: MainAxisAlignment.center
+                      ,children: [
 
                           Text('Sign in ', style: TextStyle(
-                            color: Colors.white
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                            fontSize: 20
                           ),),
                           Icon(Icons.arrow_forward, color: Colors.white,)
                         ],
+
+
 
                                         ),
 
