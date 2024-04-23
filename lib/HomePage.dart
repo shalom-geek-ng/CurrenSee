@@ -1,3 +1,4 @@
+import 'package:curren_see/LoginPage.dart';
 import 'package:curren_see/Page1.dart';
 import 'package:curren_see/Page2.dart';
 import 'package:curren_see/Page3.dart';
@@ -70,11 +71,17 @@ class Login extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center
                     ,children: [
 
-                    Text('Log in', style: TextStyle(
-                        color: Colors.green,
-                        fontSize: 20,
-                      fontWeight: FontWeight.bold
-                    ),),
+                    GestureDetector(
+                    onTap: (){
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context)=>LoginPage()));
+                    }
+                    ,child: Text('Log in', style: TextStyle(
+                          color: Colors.green,
+                          fontSize: 20,
+                        fontWeight: FontWeight.bold
+                      ),),
+                    ),
                     Icon(Icons.arrow_forward, color: Colors.green,)
                   ],
                   ),
