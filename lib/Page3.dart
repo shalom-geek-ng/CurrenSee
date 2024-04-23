@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SecondPage extends StatelessWidget {
-  const SecondPage({super.key});
+class ThirdPage extends StatelessWidget {
+  const ThirdPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,7 @@ class SecondPage extends StatelessWidget {
         decoration: BoxDecoration(
             image: DecorationImage(
                 image: AssetImage(
-                    'images/currency2.png'
+                    'images/currency3.png'
 
                 ),
                 fit: BoxFit.cover

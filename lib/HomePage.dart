@@ -1,4 +1,6 @@
 import 'package:curren_see/Page1.dart';
+import 'package:curren_see/Page2.dart';
+import 'package:curren_see/Page3.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
@@ -16,13 +18,8 @@ class Login extends StatelessWidget {
             controller: _controller,
             children: [
               FirstPage(),
-              Container(
-                color: Colors.purple,
-              ),
-
-              Container(
-                color: Colors.yellow,
-              ),
+              SecondPage(),
+              ThirdPage(),
             ],
 
           ),
