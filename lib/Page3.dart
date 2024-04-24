@@ -28,14 +28,16 @@ class ThirdPage extends StatelessWidget {
                     text: 'Experience seamless currency conversions ',
                     style: TextStyle(
                         color: Colors.white,
-                        fontSize: 30
+                        fontFamily: 'Poppins',
+                        fontSize: 25
                     )
                 ),
                 TextSpan(
                     text: 'with intuitive swipe gestures, ',
                     style: TextStyle(
                         color: Colors.green,
-                        fontSize: 30
+                        fontFamily: 'Poppins',
+                        fontSize: 25
                     )
                 ),
 
@@ -43,7 +45,8 @@ class ThirdPage extends StatelessWidget {
                     text: 'making finance management a breeze. ',
                     style: TextStyle(
                         color: Colors.white,
-                        fontSize: 30
+                        fontFamily: 'Poppins',
+                        fontSize: 25
                     )
                 ),
 

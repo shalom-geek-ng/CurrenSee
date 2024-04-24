@@ -66,33 +66,32 @@ class Login extends StatelessWidget {
                   ),
                 ),
 
-                Container(
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center
-                    ,children: [
+                GestureDetector(
+                  onTap: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>LoginPage()));
+                  },
+                  child: Container(
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center
+                      ,children: [
 
-                    GestureDetector(
-                    onTap: (){
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context)=>LoginPage()));
-                    }
-                    ,child: Text('Log in', style: TextStyle(
+                      Text('Log in', style: TextStyle(
                           color: Colors.green,
                           fontSize: 20,
                         fontWeight: FontWeight.bold
                       ),),
+                      Icon(Icons.arrow_forward, color: Colors.green,)
+                    ],
                     ),
-                    Icon(Icons.arrow_forward, color: Colors.green,)
-                  ],
-                  ),
-                  margin: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
-                  width: double.infinity,
-                  height: 50,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(8.0),
-                    color: Colors.white,
-                  ),
+                    margin: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+                    width: double.infinity,
+                    height: 50,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(8.0),
+                      color: Colors.white,
+                    ),
 
+                  ),
                 ),
 
                 Container(

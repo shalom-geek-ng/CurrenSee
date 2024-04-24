@@ -29,14 +29,15 @@ class FirstPage extends StatelessWidget {
                     style: TextStyle(
                         color: Colors.white,
                         fontFamily: 'Poppins',
-                        fontSize: 30
+                        fontSize: 25
                     )
                 ),
                 TextSpan(
                     text: 'convert ',
                     style: TextStyle(
                         color: Colors.green,
-                        fontSize: 30
+                        fontFamily: 'Poppins',
+                        fontSize: 25
                     )
                 ),
 
@@ -44,7 +45,8 @@ class FirstPage extends StatelessWidget {
                     text: 'currencies from around the globe with just a ',
                     style: TextStyle(
                         color: Colors.white,
-                        fontSize: 30
+                        fontFamily: 'Poppins',
+                        fontSize: 25
                     )
                 ),
 
@@ -52,7 +54,8 @@ class FirstPage extends StatelessWidget {
                     text: 'click.',
                     style: TextStyle(
                         color: Colors.green,
-                        fontSize: 30
+                        fontFamily: 'Poppins',
+                        fontSize: 25
                     )
                 ),
 

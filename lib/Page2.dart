@@ -29,7 +29,8 @@ class SecondPage extends StatelessWidget {
                     text: 'Discover ',
                     style: TextStyle(
                         color: Colors.green,
-                        fontSize: 30
+                        fontFamily: 'Poppins',
+                        fontSize: 25
                     )
                 ),
 
@@ -37,7 +38,8 @@ class SecondPage extends StatelessWidget {
                     text: 'real-time exchange rates ',
                     style: TextStyle(
                         color: Colors.white,
-                        fontSize: 30
+                        fontFamily: 'Poppins',
+                        fontSize: 25
                     )
                 ),
 
@@ -45,7 +47,8 @@ class SecondPage extends StatelessWidget {
                     text: 'and ',
                     style: TextStyle(
                         color: Colors.green,
-                        fontSize: 30
+                        fontFamily: 'Poppins',
+                        fontSize: 25
                     )
                 ),
 
@@ -53,7 +56,8 @@ class SecondPage extends StatelessWidget {
                     text: 'stay up-to-date with global currency trends.',
                     style: TextStyle(
                         color: Colors.white,
-                        fontSize: 30
+                        fontFamily: 'Poppins',
+                        fontSize: 25
                     )
                 ),
 
