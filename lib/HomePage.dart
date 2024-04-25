@@ -8,6 +8,7 @@ import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 class Login extends StatelessWidget {
   PageController _controller = PageController();
 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -68,7 +69,10 @@ class Login extends StatelessWidget {
 
                 GestureDetector(
                   onTap: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=>LoginPage()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>LoginPage(
+
+
+                    )));
                   },
                   child: Container(
                     child: Row(
