@@ -4,10 +4,12 @@ class DefaultTextField extends StatelessWidget {
   final controller;
   final String hintText;
   final bool ObscuredText;
+  final Widget? suffixIcon;
   const DefaultTextField({super.key,
     required this.controller,
     required this.hintText,
-    required this.ObscuredText
+    required this.ObscuredText,
+    this.suffixIcon
 
   });
 
@@ -23,6 +25,7 @@ class DefaultTextField extends StatelessWidget {
               fillColor: Colors.white,
               filled: true,
               hintText: hintText,
+              suffixIcon: suffixIcon,
 
               enabledBorder: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(8),
