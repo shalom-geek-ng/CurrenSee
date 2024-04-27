@@ -68,7 +68,7 @@ class LoginPage extends StatelessWidget {
             DefaultTextField(
               ObscuredText: false,
               controller: UserController,
-              hintText: 'UserName',
+              hintText: 'Username',
 
 
             ),
